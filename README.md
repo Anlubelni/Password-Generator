@@ -10,8 +10,8 @@ I also decided to add more comments as I moved through the code which is a habit
 
 ![This is a link to the website itself:](https://anlubelni.github.io/Password-Generator/)
 
-![This is a link to my github repository for this project](https://github.com/Anlubelni/Password-Generator)
+![This is a link to my github repository for this project:](https://github.com/Anlubelni/Password-Generator)
 
-![This is a screenshot of the first prompt on the website after clicking on the "Generate Password" button. ](./assets/images/pg1.png)
+![This is a screenshot of the first prompt on the website after clicking on the "Generate Password" button.](./assets/images/pg1.png)
 
-![This is a screenshot of the final product after going through all the alert prompts. ](./assets/images/pg2.png)
+![This is a screenshot of the final product after going through all the alert prompts.](./assets/images/pg2.png)
