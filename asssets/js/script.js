@@ -1,13 +1,12 @@
-
+// Keep it simple, no need for too many letters and numbers if they're going to mix anyways // 
 var number = "0123456789"
 var upperL = "ZXCVBNÑM"
 var lowerL = "asdfghjklñ"
 var char = "!@#$"
 
+// Rough draft to signify process while Final draft is finished product // essay references since they make sense to me //
 var draft = ""
 var final = "" 
-
-
 
 
 
@@ -17,7 +16,7 @@ var generateBtn = document.querySelector("#generate");
 console.log(draft)
 var generatePassword = function () {
   var passLength = prompt("Please enter a number between 7 and 18.");
-
+// 7 because its my birthday and 18 is my lucky number //
 
 
 
@@ -27,9 +26,7 @@ var generatePassword = function () {
 
     if (conNumber) {
       draft += number;
-    }
-  
-   
+    }   
 
 
 
@@ -41,16 +38,12 @@ var generatePassword = function () {
 
 
 
-
-    
     var conLower = confirm("Would you like to use lowercase letters?");
 
     if (conLower) {
       draft += lowerL;
     }
   
-
-
 
 
     var conChar = confirm("Would you like to use characters?");
@@ -61,11 +54,10 @@ var generatePassword = function () {
 
 
 
-  
-
     for (let i = 0; i < passLength; i++) {
       final += draft.charAt(Math.floor(Math.random()*draft.length));
       }
+
 
     return final;
   } else {
@@ -76,10 +68,7 @@ var generatePassword = function () {
 
 
 
-
-
-
-
+// added the ñ and Ñ since they're not common in english but very common is spanish, specifically to my mother's maiden name //
 
 
 
@@ -97,5 +86,5 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
+// Add event listener to generate button 
 generateBtn.addEventListener("click", writePassword);
